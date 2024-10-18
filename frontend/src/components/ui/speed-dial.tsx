@@ -38,7 +38,7 @@ const App = () => {
           ...item,
           command: () => { console.log(`${item.label} clicked`); },
           template: (item) => (
-            <Tooltip title={item.tooltip} placement="left">
+            <Tooltip title placement="left">
               <div className={`p-speeddial-action ${item.className}`}>
                 {item.icon}
               </div>

@@ -23,7 +23,7 @@ const CourseDetails = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   const toggleRightGrid = () => setShowRightGrid(!showRightGrid);
-  const handleTabChange = (event: React.SyntheticEvent, newValue: number) => setActiveTab(newValue);
+  const handleTabChange = (_: React.SyntheticEvent, newValue: number) => setActiveTab(newValue);
 
   return (
     <div className="flex flex-col w-full h-full text-gray-900">
